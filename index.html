@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>innerTextAndInnerHTML</title>
+</head>
+<body>
+  <h2 id="header">This is demo heading. We will use this element to perform various operations on it using JS code.</h2>
+  <p class="paragraph">This is the first demo paragraph. It has content to apply various JS operations on it.</p>
+  <p class="paragraph">This is the second demo paragraph. It has content to apply various JS operations on it.</p>
+  
+  <script>
+    var h2 = document.getElementById('header');
+    var p = document.getElementsByClassName('paragraph');
+    
+    console.log("Header content is: ", h2.innerText);
+    console.log("Number of paragraph tags in the HTML page: ", p.length);
+  </script>
+</body>
+</html>
